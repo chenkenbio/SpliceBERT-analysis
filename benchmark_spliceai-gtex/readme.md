@@ -1,6 +1,6 @@
 # Benchmarking SpliceBERT on SpliceAI's dataset
 
-## Data availability weights
+## Data availability
 
 - Pre-trained model: [zenodo](https://zenodo.org/records/7995778)  
 - Fine-tuned model on GTEx-SpliceAI dataset: [Google Drive](https://drive.google.com/file/d/1sUrsKbe0HJfLmNxqcNkmZccy835V0UFP/view?usp=sharing)  
