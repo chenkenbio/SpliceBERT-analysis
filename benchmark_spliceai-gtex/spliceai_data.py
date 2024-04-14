@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 r"""
+Author: Ken Chen
+Email: chenkenbio@gmail.com
+Date: 2024-01-16
+
+
 SpliceAI dataset: Canonical and GTEx splice sites
 Version: 0.0.1
 
