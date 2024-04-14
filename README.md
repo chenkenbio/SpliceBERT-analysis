@@ -12,7 +12,7 @@ The average AP scores of SpliceBERT (900nt) is comparable (donor) or slightly su
 while the ensemble model (averaging the predictions of 5 models) underperforms that of SpliceAI-10K, 
 which is likely because that SpliceBERT models were fine-tuned based on the same pre-trained model and thus lack sufficient diversity.
 
-The source codes are shared in [benchmark_spliceai-gtex](./benchmark_spliceai-gtex)
+The source codes are available in [benchmark_spliceai-gtex](./benchmark_spliceai-gtex).
 
 | model | receptive field size | AP (donor) | AP (acceptor) |  
 | --- | --- | --- | ---- |  
@@ -28,3 +28,21 @@ SpliceAI-80  | 81 | 0.5216 $\pm$ 0.0022  | 0.4449 $\pm$ 0.0020 |
 SpliceAI-10k (ensemble)  | 10001  | 0.8735  | 0.8644 |  
 SpliceBERT (ensemble)  | 900  | 0.8608  | 0.8524 |  
 
+
+# Contact
+For any questions, contact chenkenbio_[at]_gmail.com
+
+# Citation
+
+```TeX
+@article{chen2024self_bbae163,
+  title={Self-supervised learning on millions of primary RNA sequences from 72 vertebrates improves sequence-based RNA splicing prediction},
+  author={Chen, Ken and Zhou, Yue and Ding, Maolin and Wang, Yu and Ren, Zhixiang and Yang, Yuedong},
+  journal={Briefings in Bioinformatics},
+  volume={25},
+  number={3},
+  pages={bbae163},
+  year={2024},
+  publisher={Oxford University Press}
+}
+```
