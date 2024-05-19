@@ -34,12 +34,15 @@ SpliceBERT (ensemble)  | 900  | 0.8608  | 0.8524 |
 Though SpliceBERT was pre-trained on primary RNA sequences, it can also be applied to DNA sequences.
 We finetuned SpliceBERT on DeepSTARR's dataset (https://zenodo.org/record/7995778) to identify sequences with potential enhancer activity. 
 SpliceBERT outperformed DeepSTARR (convolution model) and Nucleotide Transformer (DNA language model).
+The results is available at [benchmark_deepstarr](./benchmark_deepstarr)
 
 | model | Developmental | Housekeeping |
 | --- | --- | --- |  
 SpliceBERT  | 0.70 | 0.78 |  
 DeepSTARR | 0.68 | 0.74 |  
 Nucleotide Transformer (multi-species) | 0.64 | 0.75 |  
+
+<img src="./benchmark_deepstarr/splicebert_on_deepstarr.png"> SpliceBERT_on_DeepSTARR (show 20% points) </img>
 
 
 
